@@ -76,9 +76,12 @@ p{
 
 @media only screen and (max-width: 360px) {
 	p {
+		margin-top: 50%;
 		font-size: 2.2em;
+		margin-left: 5%;
 	}
 	#main {
+		
 		font-size: 0.6em ;
 		
 	}
