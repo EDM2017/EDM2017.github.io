@@ -1,0 +1,213 @@
+/*1920px x 1080px */
+.Title {
+	font-family:'Fjalla One', sans-serif;
+	font-size: 2em;
+	margin-left: 45.7%; 
+	margin-top: -3%;
+}
+
+.Descrição {
+	font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.35em;
+	text-align: center;
+	vertical-align: middle;/* always in the middle of the page */
+}
+/*1440px x 796px */
+@media only screen and (max-width: 1440px) {
+	.Title {
+		font-size: 1.8em;
+		margin-left: 44%;
+	}
+	
+	.Descrição {
+		font-size: 1em;
+	}
+	
+	i {
+  border: solid #1c75bc;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+}
+
+/* 1366px x 641px */
+@media only screen and (max-width: 1370px){
+	.Title {
+		font-size: 1.5em;
+	}
+	.Descrição{
+		font-size: 0.8em;
+		text-align: center;
+		vertical-align: middle;
+	}
+	
+}
+
+@media only screen and (max-width: 1200px){
+	.Title {
+		font-size: 1.3em;
+	}
+	.Descrição{
+		
+		font-size: 0.7em;
+		text-align: center;
+		vertical-align: middle;
+	}
+	
+}
+
+@media only screen and (max-width: 1100px){
+	.Title {
+		font-size: 1.3em;
+	}
+	.Descrição{
+		
+		font-size: 0.68em;
+		text-align: center;
+		vertical-align: middle;
+	}
+	
+}
+
+
+@media only screen and (max-width: 1000px){
+	.Title {
+		font-size: 1.3em;
+	}
+	.Descrição{
+		
+		font-size: ;
+		text-align: center;
+		vertical-align: middle;
+	}
+	
+}
+
+
+@media only screen and (max-width: 900px){
+	.Title {
+		font-size: 1.3em;
+	}
+	.Descrição{
+		
+		font-size: 0.62em;
+		text-align: center;
+		vertical-align: middle;
+	}
+	
+}
+
+@media only screen and (max-width: 650px){
+
+	.Descrição{
+		
+		font-size: 0.55em;
+		text-align: center;
+		vertical-align: middle;
+	}
+	
+}
+
+@media only screen and (max-width: 480px){
+
+	.Descrição{
+		
+		font-size: 0.53em;
+		text-align: center;
+		vertical-align: middle;
+	}
+	
+}
+
+@media only screen and (max-width: 360px){
+    .Title {
+		font-size: 1em;
+		margin-left: 38%;
+	}
+	.Descrição{
+		
+		font-size: 0.48em;
+		text-align: center;
+		vertical-align: middle;
+	}
+	
+}
+/*table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th {
+	width: 30px;
+    height: 50px;
+}*/
+
+/* Next Page */
+
+.dotstyle ul {
+	position: relative;
+	display: inline-block;
+	
+	padding: 0;
+	list-style: none;
+	cursor: default;
+}
+
+.dotstyle li {
+	position: relative;
+	display: block;
+	float: left;
+	margin: 0 12px;
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+}
+
+.dotstyle li a {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border-radius: 50%;
+	background-color: #f99f5a;
+	position: absolute;
+}
+
+.dotstyle li a:hover {
+	background-color: #1c75bc;
+	
+}
+
+
+
+
+
+@keyframes scaleDownCenter {
+	from { }
+	to { opacity: 0; -webkit-transform: scale(.7); transform: scale(.7); }
+}
+
+@-webkit-keyframes scaleUpCenter {
+	from { opacity: 0; -webkit-transform: scale(.7); }
+}
+@keyframes scaleUpCenter {
+	from { opacity: 0; -webkit-transform: scale(.7); transform: scale(.7); }
+}
