@@ -47,8 +47,10 @@
 @media only screen and (max-width: 1370px){
 	.Title {
 		font-size: 1.5em;
+	    margin-left: 45.5%;
 	}
 	.Descrição{
+		
 		font-size: 0.8em;
 		text-align: center;
 		vertical-align: middle;
