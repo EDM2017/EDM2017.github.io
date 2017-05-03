@@ -15,8 +15,9 @@
 /*1440px x 796px */
 @media only screen and (max-width: 1440px) {
 	.Title {
+		
 		font-size: 1.8em;
-		margin-left: 44%;
+		margin-left: 45%;
 	}
 	
 	.Descrição {
